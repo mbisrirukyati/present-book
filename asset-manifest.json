@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nama-repo/static/css/main.730e4913.css",
-    "main.js": "/nama-repo/static/js/main.e33e576b.js",
-    "static/js/453.f426d9c1.chunk.js": "/nama-repo/static/js/453.f426d9c1.chunk.js",
-    "index.html": "/nama-repo/index.html",
-    "main.730e4913.css.map": "/nama-repo/static/css/main.730e4913.css.map",
-    "main.e33e576b.js.map": "/nama-repo/static/js/main.e33e576b.js.map",
-    "453.f426d9c1.chunk.js.map": "/nama-repo/static/js/453.f426d9c1.chunk.js.map"
+    "main.css": "/present-book/static/css/main.730e4913.css",
+    "main.js": "/present-book/static/js/main.8b7234a8.js",
+    "static/js/453.f426d9c1.chunk.js": "/present-book/static/js/453.f426d9c1.chunk.js",
+    "index.html": "/present-book/index.html",
+    "main.730e4913.css.map": "/present-book/static/css/main.730e4913.css.map",
+    "main.8b7234a8.js.map": "/present-book/static/js/main.8b7234a8.js.map",
+    "453.f426d9c1.chunk.js.map": "/present-book/static/js/453.f426d9c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.730e4913.css",
-    "static/js/main.e33e576b.js"
+    "static/js/main.8b7234a8.js"
   ]
 }

@@ -1,8 +1,12 @@
 import React, { useState, useMemo, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import { Document, Page as PdfPage, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 
-pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.js";
+pdfjs.GlobalWorkerOptions.workerSrc =
+  `https://unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
+
+// pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.js";
 
 const PAGE_WIDTH = 420;
 const BOOK_WIDTH = PAGE_WIDTH * 2;
@@ -47,7 +51,7 @@ export default function FlipBook() {
         <div className="bookContainer">
 
             <Document
-                file={process.env.PUBLIC_URL + "/file.pdf"}
+                file="https://mbisrirukyati.github.io/present-book/file.pdf"
                 onLoadSuccess={({ numPages }) => setNumPages(numPages)}
             >
                 {numPages && (

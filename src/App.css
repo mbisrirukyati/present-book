@@ -1,27 +1,69 @@
-.App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #ddd;
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #eaeaea;
 }
 
 .bookContainer {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* page style */
-.page {
-  background: white;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent !important;
 }
 
-.page img {
+.pageInner {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spread {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coverPage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.react-pdf__Page {
+  margin: 0 auto !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  background: transparent !important;
+}
+
+.react-pdf__Page__textContent {
+  pointer-events: none;
+}
+
+.react-pdf__Page__annotations {
+  pointer-events: auto !important;
+}
+
+@media (max-width: 768px) {
+  .react-pdf__Page {
+    width: 100% !important;
+    height: auto !important;
+  }
 }

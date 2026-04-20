@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
-import { Document, Page as PdfPage, pdfjs } from "react-pdf";
+import { Document, Page as PdfPage } from "react-pdf";
 import { pdfjs } from "react-pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc =

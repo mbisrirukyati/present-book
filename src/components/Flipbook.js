@@ -47,7 +47,7 @@ export default function FlipBook() {
         <div className="bookContainer">
 
             <Document
-                file="/file.pdf"
+                file={process.env.PUBLIC_URL + "/file.pdf"}
                 onLoadSuccess={({ numPages }) => setNumPages(numPages)}
             >
                 {numPages && (
